@@ -514,7 +514,7 @@
     },
     
     delay: function(func, timeout){
-      setTimeout(this.proxy(func), timeout || 0);
+      return setTimeout(this.proxy(func), timeout || 0);
     }
   });
   
